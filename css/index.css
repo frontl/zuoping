@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .box {
+    min-width: 1300px;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .box .boxhead {
+    height: 45px;
+    width: 100%;
+    background: blue;
+  }
+  .box .boxhead ul {
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+  }
+  .box .boxhead ul li {
+    float: left;
+    height: 100%;
+    line-height: 45px;
+    width: 25%;
+    background: yellow;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  hr {
+    width: 100%;
+    margin: 30px auto;
+  }
+  #box1 {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #box1 ul {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  #box1 ul li {
+    height: 340px;
+    width: 24%;
+    background: red;
+    float: left;
+    text-align: center;
+  }
+  #box1 ul li a {
+    height: 100%;
+    width: 100%;
+    line-height: 340px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .box {
+    min-width: 400px;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .box .boxhead {
+    height: 45px;
+    width: 100%;
+    background: blue;
+  }
+  .box .boxhead ul {
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+  }
+  .box .boxhead ul li {
+    float: left;
+    height: 100%;
+    line-height: 45px;
+    width: 25%;
+    background: pink;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  hr {
+    width: 100%;
+    margin: 16px auto;
+  }
+  #box1 {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #box1 ul {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  #box1 ul li {
+    height: 240px;
+    width: 49%;
+    background: pink;
+    float: left;
+    text-align: center;
+  }
+  #box1 ul li a {
+    height: 100%;
+    width: 100%;
+    line-height: 240px;
+    text-align: center;
+  }
+}
