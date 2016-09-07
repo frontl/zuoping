@@ -295,9 +295,9 @@ hr {
 }
 
 /*}*/
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   .box {
-    min-width: 600px;
+    min-width: 300px;
     width: 75%;
     margin: 0 auto;
     height: 100%;
@@ -318,40 +318,44 @@ hr {
     height: 100%;
     line-height: 45px;
     width: 25%;
-    background: pink;
+    background: yellow;
     text-align: center;
     box-sizing: border-box;
   }
-  hr {
+  .box hr {
     width: 100%;
-    margin: 16px auto;
+    margin: 30px auto;
   }
-  #box1 {
+  .box #box1 {
     height: auto;
     width: 100%;
     margin: 0 auto;
   }
-  #box1 ul {
+  .box #box1 ul {
     height: 100%;
     width: 100%;
     padding-left: 15px;
     box-sizing: border-box;
   }
-  #box1 ul li {
-    padding: 0;
-    height: 80px;
-    width: 46%;
-    background: pink;
+  .box #box1 ul li {
+    height: 50px;
+    width: 43%;
+    margin: 3px 5px;
+    box-sizing: border-box;
+    border: 1px solid red;
     float: left;
+    text-align: center;
+    background: green;
   }
-  #box1 ul li a {
+  .box #box1 ul li a {
+    font-size: 16px;
     display: inline-block;
     height: 100%;
     width: 100%;
-    line-height: 80px;
+    line-height: 28px;
     text-align: center;
   }
-  #box1 ul li a:hover {
+  .box #box1 ul li a:hover {
     font-size: 24px;
     text-shadow: none;
     color: blue;
